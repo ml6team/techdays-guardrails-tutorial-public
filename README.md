@@ -134,7 +134,7 @@ Let's waste no time and directly evaluate the guardrail on the dataset we receiv
 
 ```python
 # Run the guardrail
-metrics, _ = guardrail.evaluate_on_dataset(dataset_path="data/user_input_samples.csv")
+metrics, _ = guardrail.evaluate_on_dataset(dataset_path="data/tuning.csv")
 ```
 
 📉 Now we see that simple guardrails are not enough to protect the chatbot from more complex and customized inputs.
